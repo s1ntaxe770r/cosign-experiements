@@ -9,6 +9,5 @@ RUN apk add cowsay --repository http://dl-3.alpinelinux.org/alpine/edge/testing/
 
 RUN apk add cowsay 
 
-
 # Set the default command to run cowsay and exit
 CMD ["cowsay", "Hello, Docker!"]
