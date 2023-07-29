@@ -1,3 +1,10 @@
+name: build and sign
+
+on:
+  push:
+    branches:
+      - 'main'
+
 jobs:
   build-image:
     runs-on: ubuntu-latest
